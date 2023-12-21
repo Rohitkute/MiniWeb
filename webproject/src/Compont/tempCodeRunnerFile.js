@@ -21,9 +21,7 @@ const handleSubmit = (e) => {
   };
 
   return (
-    // <div className='container '>
-    <div className="card container mt-5 d-flex justify-content-center" style={{"width":'35rem'}}>
-      <h1 className='text-primary mb-4'>Registration form</h1>
+    <div className="container mt-5">
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="email" className="form-label">
@@ -94,14 +92,13 @@ const handleSubmit = (e) => {
             I accept the terms and conditions
           </label>
         </div>
-        <button type="submit" className="btn btn-primary mb-4">
+        <button type="submit" className="btn btn-primary">
           Submit
           
         </button>
       </form>
       
     </div>
-    // </div>
   );
 };
 

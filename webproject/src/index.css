@@ -14,7 +14,7 @@ code {
 
 body{
   margin-top:20px;
-  background: #f6f9fc;
+  background: #e42dea;
 }
 .account-block {
   padding: 0;
@@ -51,7 +51,7 @@ body{
 }
 
 .btn-theme {
-  background-color: #5369f8;
+  background-color: #f213dc;
   border-color: #5369f8;
   color: #fff;
 }

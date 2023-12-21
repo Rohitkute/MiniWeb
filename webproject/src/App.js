@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 //import Login from '../Login';
 import RegForm from './Compont/RegForm'
+import Login from './Compont/Login';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
     // </div>
   //);
   <div>
-			<div id="main-wrapper" class="container">
+			{/* <div id="main-wrapper" class="container">
     <div class="row justify-content-center">
         <div class="col-xl-10">
             <div class="card border-0">
@@ -36,7 +37,7 @@ function App() {
                                     <h3 class="h4 font-weight-bold text-theme">Login</h3>
                                 </div>
 
-                                <h6 class="h5 mb-0">Welcome back!</h6>
+                                <h6 class="h5 mb-0">Welcome!</h6>
                                 <p class="text-muted mt-2 mb-5">Enter your email address and password to access admin panel.</p>
 
                                 <form>
@@ -48,7 +49,7 @@ function App() {
                                         <label for="exampleInputPassword1">Password</label>
                                         <input type="password" class="form-control" id="exampleInputPassword1"/>
                                     </div>
-                                    <button type="submit" class="btn btn-theme">Login</button>
+                                    <button type="submit" class="btn btn-theme" >Login</button>
                                     <a href="#l" class="forgot-link float-right text-primary">Forgot password?</a>
                                 </form>
                             </div>
@@ -71,7 +72,7 @@ function App() {
             </div>
             
 
-            <p class="text-muted text-center mt-3 mb-0">Don't have an account? <a href="" class="text-primary ml-1">register</a></p>
+            <p class="text-muted text-center mt-3 mb-0">Don't have an account? <a href="" class="text-primary ml-1" onClick={<RegForm/>}>register</a></p>
 
             
 
@@ -79,7 +80,8 @@ function App() {
         
     </div>
     
-</div>
+</div> */}
+<Login/>
 		</div>
 	);
 
